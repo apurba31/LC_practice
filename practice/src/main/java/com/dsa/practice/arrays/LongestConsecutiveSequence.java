@@ -15,7 +15,7 @@ class LongestConsecutiveSequence {
             numSet.add(num); // Add all elements to the set
         }
         
-        int longestSub = 1; // Fixed typo: longetSub -> longestSub
+        int longestSub = 1; 
         
         for (int num : nums) {
             // Only start counting from the beginning of a sequence

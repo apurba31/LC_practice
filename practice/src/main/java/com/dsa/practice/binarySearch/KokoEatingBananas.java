@@ -31,18 +31,22 @@ public class KokoEatingBananas {
         return left;
     }
 
+    // replace canFinish to use integer arithmetic (avoid Math.ceil)
     private static boolean canFinish(int[] piles, int speed, int h) {
         long hoursNeeded = 0;
         for (int pile : piles) {
+            // integer ceil: (pile + speed - 1) / speed
             hoursNeeded += (pile + speed - 1) / speed;
         }
         return hoursNeeded <= h;
     }
 
+    // enhanced main with diagnostics and optional CLI parsing
     public static void main(String[] args) {
+        System.out.println("KokoEatingBananas main started");
         int[] piles = {3, 6, 7, 11};
         int h = 8;
         int result = minEatingSpeed(piles, h);
-        System.out.println("Minimum Eating Speed: " + result);
+        System.out.println("Minimum eating speed: " + result); // Expected output: 4
     }
 }

@@ -11,6 +11,9 @@ class ThreeSum {
      * The optimal solution is to sort the array first and 
      * then use a two-pointer technique to find the triplets.
      * This will give us a time complexity of O(n^2) as well, but
+     * with better constant factors due to the sorted nature of the array.
+     * We also need to ensure that we skip duplicates to avoid repeating triplets in the result.
+     * 
      */
 
     public List<List<Integer>> threeSum(int[] nums) {

@@ -4,9 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
-        
+        {
+            "type": "java",
+            "name": "CarFleet",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.stack.CarFleet",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "DailyTemperatures",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.stack.DailyTemperatures",
+            "projectName": "practice"
+        },
         {
             "type": "jdk",
             "request": "launch",

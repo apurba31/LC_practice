@@ -3,6 +3,16 @@ package com.dsa.practice.arrays;
 import java.util.Arrays;
 
 class ProductOfArrayExceptSelf {
+    /**
+     * To find the product of an array except self without using division and in O(n) time complexity,
+     * we can use two passes through the array. In the first pass, we calculate the
+     * product of all elements to the left of each index and store it in the result array.
+     * In the second pass, we calculate the product of all elements to the right of each
+     * index and multiply it with the corresponding value in the result array. This way, each index in the result array will contain the product of all elements
+     * except the one at that index.
+     * @param nums
+     * @return
+     */
 
     public int[] productExceptSelf(int[] nums) {
         int[] result = new int[nums.length];

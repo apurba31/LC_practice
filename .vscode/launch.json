@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinaryTreeMaxiumPathSum",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.binaryTree.BinaryTreeMaxiumPathSum",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "ConstructBinaryTreeFromPreOrderTraversal",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.binaryTree.ConstructBinaryTreeFromPreOrderTraversal",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "KthSmallestElementInBST",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.binaryTree.KthSmallestElementInBST",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "ValidateBST",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.binaryTree.ValidateBST",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "CountGoodNodes",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.binaryTree.CountGoodNodes",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeRightSideView",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.binaryTree.BinaryTreeRightSideView",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeLevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.binaryTree.BinaryTreeLevelOrderTraversal",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "SubTreeOfAnotherTree",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.binaryTree.SubTreeOfAnotherTree",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "SameTree",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.binaryTree.SameTree",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "BalancedBinaryTree",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.binaryTree.BalancedBinaryTree",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "ValidAnagram",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.arrays.ValidAnagram",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "BestTimetoBuyAndSellStock",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.arrays.BestTimetoBuyAndSellStock",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "LargestRectangleInHistogram",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.stack.LargestRectangleInHistogram",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "CarFleet",
             "request": "launch",
             "mainClass": "com.dsa.practice.stack.CarFleet",

@@ -1,5 +1,7 @@
 package com.dsa.practice.binaryTree;
 
+import java.util.ArrayList;
+
 public class KthSmallestElementInBST {
     /**
      * To find the k-th smallest element in a binary search tree (BST), we can perform an in-order traversal of the tree.
@@ -19,24 +21,23 @@ public class KthSmallestElementInBST {
         TreeNode right;
         TreeNode(int x) { val = x; }
     }
-    private int count = 0;
-    private int result = -1;
-    public int kthSmallest(TreeNode root, int k) {
-        inorder(root, k);
-        return result;
+
+    public ArrayList<Integer> inOrder(TreeNode root, ArrayList<Integer> list){
+        if(root == null) return list;
+
+        inOrder(root.left, list);
+        list.add(root.val);
+        inOrder(root.right, list);
+
+        return list;
     }
-    private void inorder(TreeNode node, int k) {
-        if (node == null) {
-            return;
-        }
-        inorder(node.left, k);
-        count++;
-        if (count == k) {
-            result = node.val;
-            return;
-        }
-        inorder(node.right, k);
+
+    public int kthSmallest(TreeNode root, int k){
+        ArrayList<Integer> list = new ArrayList<>();
+        inOrder(root, list);
+        return list.get(k - 1);
     }
+
     public static void main(String[] args) {
         KthSmallestElementInBST solution = new KthSmallestElementInBST();
         // Creating a sample BST:

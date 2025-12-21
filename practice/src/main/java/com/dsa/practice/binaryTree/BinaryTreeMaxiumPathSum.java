@@ -43,6 +43,6 @@ static class TreeNode {
         root.right.left = new TreeNode(15);
         root.right.right = new TreeNode(7);
         int result = solution.maxPathSum(root);
-        System.out.println("The maximum path sum in the binary tree is: " + result); // Expected output: 42
+        System.out.println("The maximum path sum in the binary tree is: " + result); // Expected output: 42 
     }
 }

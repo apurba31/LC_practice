@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestPalindromicSubstring",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.LongestPalindromicSubstring",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "HouseRobberII",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.HouseRobberII",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "HouseRobber",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.HouseRobber",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "MinCostClimbingStairs",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.MinCostClimbingStairs",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "ClimbingStairs",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.ClimbingStairs",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "BinaryTreeMaxiumPathSum",
             "request": "launch",
             "mainClass": "com.dsa.practice.binaryTree.BinaryTreeMaxiumPathSum",

@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DistinctSubsequences",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.DistinctSubsequences",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "LongestCommonSubsequence",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.LongestCommonSubsequence",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "WordBreak",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.WordBreak",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "MaximumProductSubarray",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.MaximumProductSubarray",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Java21Features",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.arrays.Java21Features",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "ThreeSum",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.arrays.ThreeSum",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "CoinChange",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.CoinChange",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "LongestPalindromicSubstring",
             "request": "launch",
             "mainClass": "com.dsa.practice.dynamicProgramming.LongestPalindromicSubstring",

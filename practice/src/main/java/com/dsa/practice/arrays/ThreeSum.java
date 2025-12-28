@@ -13,7 +13,8 @@ class ThreeSum {
      * This will give us a time complexity of O(n^2) as well, but
      * with better constant factors due to the sorted nature of the array.
      * We also need to ensure that we skip duplicates to avoid repeating triplets in the result.
-     * 
+     * Time Complexity: O(n^2)
+     * Space Complexity: O(1) or O(k) where k is the number of triplets in the result.
      */
 
     public List<List<Integer>> threeSum(int[] nums) {

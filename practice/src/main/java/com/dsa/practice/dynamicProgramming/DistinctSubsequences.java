@@ -19,7 +19,7 @@ public class DistinctSubsequences {
  */
 public int minDistinct(String s, String t){
      int m = s.length();
-        int n = t.length();
+     int n = t.length();
         
         // Create a 2D dp array
         int[][] dp = new int[m + 1][n + 1];

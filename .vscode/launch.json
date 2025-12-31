@@ -5,11 +5,31 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "PartitionEqualSubsetSum",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.PartitionEqualSubsetSum",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "LongestIncreasingSubsequence",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.LongestIncreasingSubsequence",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "UniquePaths",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.UniquePaths",
+            "projectName": "practice"
+        },
+        {
             "type": "jdk",
             "request": "launch",
             "name": "Launch Java App"
         },
-
         {
             "type": "java",
             "name": "DistinctSubsequences",

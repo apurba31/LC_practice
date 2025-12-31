@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TargetSum",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.TargetSum",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "CoinChangeII",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.CoinChangeII",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "BestTimeToBuyAndSellStockWithCooldown",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.BestTimeToBuyAndSellStockWithCooldown",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "PartitionEqualSubsetSum",
             "request": "launch",
             "mainClass": "com.dsa.practice.dynamicProgramming.PartitionEqualSubsetSum",

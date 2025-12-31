@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InterleavingString",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.InterleavingString",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "TargetSum",
             "request": "launch",
             "mainClass": "com.dsa.practice.dynamicProgramming.TargetSum",

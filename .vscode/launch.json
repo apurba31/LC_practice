@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestIncreasingPathInAMatrix",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.dynamicProgramming.LongestIncreasingPathInAMatrix",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "InterleavingString",
             "request": "launch",
             "mainClass": "com.dsa.practice.dynamicProgramming.InterleavingString",

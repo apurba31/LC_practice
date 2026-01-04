@@ -10,7 +10,8 @@ public class CoinChange {
  * Space Complexity: O(n) for the recursion stack.
  * Efficient Approach:
  * A more efficient approach to solving the Coin Change problem is to use Dynamic Programming. This method
- * involves building a table (array) where each entry at index i represents the minimum number of coins needed to make the amount i. The algorithm iteratively fills this table by considering each coin denomination and updating the entries based on previously computed values.
+ * involves building a table (array) where each entry at index i represents the minimum number of coins needed to make the amount i. 
+ * The algorithm iteratively fills this table by considering each coin denomination and updating the entries based on previously computed values.
  * Time Complexity: O(n*m), where n is the amount and m is the number of
  * coin denominations.
  * Space Complexity: O(n) for the DP array.

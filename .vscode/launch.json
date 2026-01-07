@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximumSubarray",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.greedy.MaximumSubarray",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "LongestIncreasingPathInAMatrix",
             "request": "launch",
             "mainClass": "com.dsa.practice.dynamicProgramming.LongestIncreasingPathInAMatrix",

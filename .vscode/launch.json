@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidParenthesisString",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.greedy.ValidParenthesisString",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "MergeTriplets",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.greedy.MergeTriplets",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "JumpGameII",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.greedy.JumpGameII",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "MaximumSubarray",
             "request": "launch",
             "mainClass": "com.dsa.practice.greedy.MaximumSubarray",

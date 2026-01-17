@@ -1,5 +1,6 @@
 package com.dsa.practice.greedy;
 
+
 public class JumpGameII {
 /**
  * Brief Explanation:
@@ -23,6 +24,20 @@ public class JumpGameII {
  * Space Complexity: O(1)
  */
 public int jump(int[] nums){
-    return 0;
+    int jump = 0, currMax = 0, currEnd = 0;
+
+    for( int i = 0; i < nums.length - 1; i++){
+        currMax = Math.max(currMax, i + nums[i]);
+        if(i == currEnd){
+            jump++;
+            currEnd = currMax;
+        }
+    }
+    return jump;
+}
+public static void main(String[] args) {
+    JumpGameII jumpGameII = new JumpGameII();
+    int[] nums = {2,3,1,1,4};
+    System.out.println("Minimum jumps to reach the last index: " + jumpGameII.jump(nums));
 }
 }

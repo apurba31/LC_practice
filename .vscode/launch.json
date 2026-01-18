@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LastStoneWeight",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.heap.LastStoneWeight",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "KthLargestElementInAStream",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.heap.KthLargestElementInAStream",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "MeetingRoomsII",
             "request": "launch",
             "mainClass": "com.dsa.practice.interval.MeetingRoomsII",

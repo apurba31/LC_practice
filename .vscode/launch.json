@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MeetingRoomsII",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.interval.MeetingRoomsII",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "MeetingRooms",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.interval.MeetingRooms",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "OverlappingIntervals",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.interval.OverlappingIntervals",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "MergeIntervals",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.interval.MergeIntervals",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "InsertInterval",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.interval.InsertInterval",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "PartitionLabels",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.greedy.PartitionLabels",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "ValidParenthesisString",
             "request": "launch",
             "mainClass": "com.dsa.practice.greedy.ValidParenthesisString",

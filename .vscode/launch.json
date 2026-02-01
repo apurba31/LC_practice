@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxAreaOfIslands",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.MaxAreaOfIslands",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "CloneGraph",
             "request": "launch",
             "mainClass": "com.dsa.practice.graph.CloneGraph",

@@ -8,6 +8,8 @@ class LongestConsecutiveSequence {
      * Finds the length of the longest consecutive elements sequence in an array.
      * Efficient solution using a HashSet for O(n) complexity.
      * This method avoids sorting and uses set lookups to find sequences.
+     * To understand the approach, consider that each number can be a potential start of a sequence.
+     * A number is a start if it does not have a predecessor (i.e., num - 1 is not in the set).
      * Example: Input: [100, 4, 200, 1, 3, 2]
      * Output: 4 (The longest consecutive sequence is [1, 2, 3, 4])
      * @param nums

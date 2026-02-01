@@ -5,13 +5,40 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CloneGraph",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.CloneGraph",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "NumberOfIslands",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.NumberOfIslands",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "FindMedianFromDataStream",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.heap.FindMedianFromDataStream",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "DesignTwitter",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.heap.DesignTwitter",
+            "projectName": "practice"
+        },
+        {
             "name": "Attach to Chrome",
             "port": 9222,
             "request": "attach",
             "type": "chrome",
             "webRoot": "${workspaceFolder}"
         },
-
         {
             "type": "java",
             "name": "LastStoneWeight",

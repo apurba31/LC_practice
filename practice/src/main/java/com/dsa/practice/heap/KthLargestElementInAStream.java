@@ -43,6 +43,7 @@ public int add(int val){
     }
     return minHeap.peek(); // The k-th largest element
 }
+
 public static void main(String[] args) {
     KthLargestElementInAStream kthLargest = new KthLargestElementInAStream(3, new int[]{4, 5, 8, 2});
     System.out.println(kthLargest.add(3));  // returns 4

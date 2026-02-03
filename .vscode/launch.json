@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SurroundedRegions",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.SurroundedRegions",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "PacificAtlanticWaterFlow",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.PacificAtlanticWaterFlow",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "MaxAreaOfIslands",
             "request": "launch",
             "mainClass": "com.dsa.practice.graph.MaxAreaOfIslands",

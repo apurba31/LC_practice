@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WallsAndGates",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.WallsAndGates",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "RottenOranges",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.RottenOranges",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "SurroundedRegions",
             "request": "launch",
             "mainClass": "com.dsa.practice.graph.SurroundedRegions",

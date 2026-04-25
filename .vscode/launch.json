@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NextGreatestElement",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.stack.NextGreatestElement",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "WallsAndGates",
             "request": "launch",
             "mainClass": "com.dsa.practice.graph.WallsAndGates",

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GraphValidTree",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.GraphValidTree",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "CourseScheduleII",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.CourseScheduleII",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "CourseSchedule",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.CourseSchedule",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "NextGreatestElement",
             "request": "launch",
             "mainClass": "com.dsa.practice.stack.NextGreatestElement",

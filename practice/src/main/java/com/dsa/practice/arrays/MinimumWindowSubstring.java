@@ -4,6 +4,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MinimumWindowSubstring {
+    /**
+     * The minimum window substring problem is a common algorithmic problem that can be solved using the sliding window technique. The goal is to find the smallest substring in a given string `s` that contains all the characters of another string `t`.
+     * The brute force approach involves checking all possible substrings of `s` and verifying if they contain all characters of `t`, which has a time complexity of O(n^3) in the worst case. The optimal approach uses two pointers to create a sliding window and a hash map to count the characters in `t`. The time complexity of this approach is O(n) because each character is processed at most twice (once when expanding the window and once when contracting it).
+     * Optimal Approach:
+     * 1. Create a hash map to count the frequency of characters in `t`.
+     * 2. Use two pointers to represent the sliding window and a variable to count how many characters from `t` are currently in the window.
+     * 3. Expand the right pointer to include characters until the window contains all characters of `t`.
+     * 4. Once the window is valid, try to contract it from the left to find the minimum length while still containing all characters of `t`.
+     * 5. Update the minimum window size and starting index whenever
+     * a valid window is found.
+     */
 
     public String minWindow(String s, String t) {
       if(s.length() == 0 || t.length() == 0) {

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberOfConnectedComponentsInUndirectedGraph",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.NumberOfConnectedComponentsInUndirectedGraph",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "GraphValidTree",
             "request": "launch",
             "mainClass": "com.dsa.practice.graph.GraphValidTree",

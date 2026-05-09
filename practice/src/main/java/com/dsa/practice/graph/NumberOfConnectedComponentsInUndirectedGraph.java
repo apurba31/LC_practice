@@ -1,9 +1,11 @@
 package com.dsa.practice.graph;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.HashMap;
 import java.util.List;
-
-import com.oracle.graal.compiler.enterprise.l;
+import java.util.Queue;
 
 public class NumberOfConnectedComponentsInUndirectedGraph {
     /**
@@ -24,6 +26,17 @@ public class NumberOfConnectedComponentsInUndirectedGraph {
         int[] visited = new int[n];
 
         List<Integer>[] adjacencyList = new ArrayList[n];
+        Deque<Integer>[] stackAr = new ArrayDeque[n];
+        Queue<Integer>[] queueAr = new ArrayDeque[n];
+        HashMap<Integer, Integer>[] hashMapAr = new HashMap[n];
+
+        for(int i = 0; i < n; i++){
+            stackAr[i] = new ArrayDeque<>();
+            queueAr[i] = new ArrayDeque<>();
+            hashMapAr[i] = new HashMap<>();
+        }
+        
+
         for(int i = 0; i < n; i++){
             adjacencyList[i] = new ArrayList<Integer>();
         }

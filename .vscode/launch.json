@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RedundantConnections",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.RedundantConnections",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "NumberOfConnectedComponentsInUndirectedGraph",
             "request": "launch",
             "mainClass": "com.dsa.practice.graph.NumberOfConnectedComponentsInUndirectedGraph",

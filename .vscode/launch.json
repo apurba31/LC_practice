@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReconstructItinerary",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.ReconstructItinerary",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "WordLadder",
+            "request": "launch",
+            "mainClass": "com.dsa.practice.graph.WordLadder",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "RedundantConnections",
             "request": "launch",
             "mainClass": "com.dsa.practice.graph.RedundantConnections",
